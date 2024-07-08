@@ -61,6 +61,10 @@ function alterarContexto(contexto){ //cria uma funcao para ser mais limpo e faci
         contexto.classList.remove('active')
     })
     switch(contexto){  // modificar o texto
+        case 'foco': 
+        titulo.innerHTML =`Otimize sua produtividade, <br>
+        <strong class="app__title-strong">mergulhe no que importa</strong>`
+        break;
         case 'descanso-curto': 
         titulo.innerHTML =`Que tal dar uma respirada? <br>
         <strong class="app__title-strong">Faça uma pausa curta!</strong>`
